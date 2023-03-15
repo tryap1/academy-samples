@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import io
-
+import pandas as pd
 
 def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, country: str):
     """
